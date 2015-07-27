@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		765B5EB01B65BDE000A8FCFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 765B5EAF1B65BDE000A8FCFB /* main.m */; };
+		765B5EB31B65BDE000A8FCFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 765B5EB21B65BDE000A8FCFB /* AppDelegate.m */; };
+		765B5EB61B65BDE000A8FCFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 765B5EB51B65BDE000A8FCFB /* ViewController.m */; };
+		765B5EB91B65BDE000A8FCFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 765B5EB71B65BDE000A8FCFB /* Main.storyboard */; };
+		765B5EBB1B65BDE000A8FCFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765B5EBA1B65BDE000A8FCFB /* Images.xcassets */; };
+		765B5EBE1B65BDE000A8FCFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 765B5EBC1B65BDE000A8FCFB /* LaunchScreen.xib */; };
+		765B5ECA1B65BDE000A8FCFB /* AFN___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 765B5EC91B65BDE000A8FCFB /* AFN___Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		765B5EC41B65BDE000A8FCFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 765B5EA21B65BDE000A8FCFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 765B5EA91B65BDE000A8FCFB;
+			remoteInfo = "AFN的封装";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		765B5EAA1B65BDE000A8FCFB /* AFN的封装.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFN的封装.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		765B5EAE1B65BDE000A8FCFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		765B5EAF1B65BDE000A8FCFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		765B5EB11B65BDE000A8FCFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		765B5EB21B65BDE000A8FCFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		765B5EB41B65BDE000A8FCFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		765B5EB51B65BDE000A8FCFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		765B5EB81B65BDE000A8FCFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		765B5EBA1B65BDE000A8FCFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		765B5EBD1B65BDE000A8FCFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		765B5EC31B65BDE000A8FCFB /* AFN的封装Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFN的封装Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		765B5EC81B65BDE000A8FCFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		765B5EC91B65BDE000A8FCFB /* AFN___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFN___Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		765B5EA71B65BDE000A8FCFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765B5EC01B65BDE000A8FCFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		765B5EA11B65BDE000A8FCFB = {
+			isa = PBXGroup;
+			children = (
+				765B5EAC1B65BDE000A8FCFB /* AFN的封装 */,
+				765B5EC61B65BDE000A8FCFB /* AFN的封装Tests */,
+				765B5EAB1B65BDE000A8FCFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		765B5EAB1B65BDE000A8FCFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				765B5EAA1B65BDE000A8FCFB /* AFN的封装.app */,
+				765B5EC31B65BDE000A8FCFB /* AFN的封装Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		765B5EAC1B65BDE000A8FCFB /* AFN的封装 */ = {
+			isa = PBXGroup;
+			children = (
+				765B5EB11B65BDE000A8FCFB /* AppDelegate.h */,
+				765B5EB21B65BDE000A8FCFB /* AppDelegate.m */,
+				765B5EB41B65BDE000A8FCFB /* ViewController.h */,
+				765B5EB51B65BDE000A8FCFB /* ViewController.m */,
+				765B5EB71B65BDE000A8FCFB /* Main.storyboard */,
+				765B5EBA1B65BDE000A8FCFB /* Images.xcassets */,
+				765B5EBC1B65BDE000A8FCFB /* LaunchScreen.xib */,
+				765B5EAD1B65BDE000A8FCFB /* Supporting Files */,
+			);
+			path = "AFN的封装";
+			sourceTree = "<group>";
+		};
+		765B5EAD1B65BDE000A8FCFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				765B5EAE1B65BDE000A8FCFB /* Info.plist */,
+				765B5EAF1B65BDE000A8FCFB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		765B5EC61B65BDE000A8FCFB /* AFN的封装Tests */ = {
+			isa = PBXGroup;
+			children = (
+				765B5EC91B65BDE000A8FCFB /* AFN___Tests.m */,
+				765B5EC71B65BDE000A8FCFB /* Supporting Files */,
+			);
+			path = "AFN的封装Tests";
+			sourceTree = "<group>";
+		};
+		765B5EC71B65BDE000A8FCFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				765B5EC81B65BDE000A8FCFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		765B5EA91B65BDE000A8FCFB /* AFN的封装 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 765B5ECD1B65BDE000A8FCFB /* Build configuration list for PBXNativeTarget "AFN的封装" */;
+			buildPhases = (
+				765B5EA61B65BDE000A8FCFB /* Sources */,
+				765B5EA71B65BDE000A8FCFB /* Frameworks */,
+				765B5EA81B65BDE000A8FCFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AFN的封装";
+			productName = "AFN的封装";
+			productReference = 765B5EAA1B65BDE000A8FCFB /* AFN的封装.app */;
+			productType = "com.apple.product-type.application";
+		};
+		765B5EC21B65BDE000A8FCFB /* AFN的封装Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 765B5ED01B65BDE000A8FCFB /* Build configuration list for PBXNativeTarget "AFN的封装Tests" */;
+			buildPhases = (
+				765B5EBF1B65BDE000A8FCFB /* Sources */,
+				765B5EC01B65BDE000A8FCFB /* Frameworks */,
+				765B5EC11B65BDE000A8FCFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				765B5EC51B65BDE000A8FCFB /* PBXTargetDependency */,
+			);
+			name = "AFN的封装Tests";
+			productName = "AFN的封装Tests";
+			productReference = 765B5EC31B65BDE000A8FCFB /* AFN的封装Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		765B5EA21B65BDE000A8FCFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Mike;
+				TargetAttributes = {
+					765B5EA91B65BDE000A8FCFB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					765B5EC21B65BDE000A8FCFB = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 765B5EA91B65BDE000A8FCFB;
+					};
+				};
+			};
+			buildConfigurationList = 765B5EA51B65BDE000A8FCFB /* Build configuration list for PBXProject "AFN的封装" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 765B5EA11B65BDE000A8FCFB;
+			productRefGroup = 765B5EAB1B65BDE000A8FCFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				765B5EA91B65BDE000A8FCFB /* AFN的封装 */,
+				765B5EC21B65BDE000A8FCFB /* AFN的封装Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		765B5EA81B65BDE000A8FCFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765B5EB91B65BDE000A8FCFB /* Main.storyboard in Resources */,
+				765B5EBE1B65BDE000A8FCFB /* LaunchScreen.xib in Resources */,
+				765B5EBB1B65BDE000A8FCFB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765B5EC11B65BDE000A8FCFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		765B5EA61B65BDE000A8FCFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765B5EB61B65BDE000A8FCFB /* ViewController.m in Sources */,
+				765B5EB31B65BDE000A8FCFB /* AppDelegate.m in Sources */,
+				765B5EB01B65BDE000A8FCFB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765B5EBF1B65BDE000A8FCFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765B5ECA1B65BDE000A8FCFB /* AFN___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		765B5EC51B65BDE000A8FCFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 765B5EA91B65BDE000A8FCFB /* AFN的封装 */;
+			targetProxy = 765B5EC41B65BDE000A8FCFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		765B5EB71B65BDE000A8FCFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				765B5EB81B65BDE000A8FCFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		765B5EBC1B65BDE000A8FCFB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				765B5EBD1B65BDE000A8FCFB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		765B5ECB1B65BDE000A8FCFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		765B5ECC1B65BDE000A8FCFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		765B5ECE1B65BDE000A8FCFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AFN的封装/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		765B5ECF1B65BDE000A8FCFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AFN的封装/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		765B5ED11B65BDE000A8FCFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AFN的封装Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFN的封装.app/AFN的封装";
+			};
+			name = Debug;
+		};
+		765B5ED21B65BDE000A8FCFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AFN的封装Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFN的封装.app/AFN的封装";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		765B5EA51B65BDE000A8FCFB /* Build configuration list for PBXProject "AFN的封装" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				765B5ECB1B65BDE000A8FCFB /* Debug */,
+				765B5ECC1B65BDE000A8FCFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		765B5ECD1B65BDE000A8FCFB /* Build configuration list for PBXNativeTarget "AFN的封装" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				765B5ECE1B65BDE000A8FCFB /* Debug */,
+				765B5ECF1B65BDE000A8FCFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		765B5ED01B65BDE000A8FCFB /* Build configuration list for PBXNativeTarget "AFN的封装Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				765B5ED11B65BDE000A8FCFB /* Debug */,
+				765B5ED21B65BDE000A8FCFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 765B5EA21B65BDE000A8FCFB /* Project object */;
+}
