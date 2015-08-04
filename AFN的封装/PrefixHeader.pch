@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  AFN的封装
+//
+//  Created by 刘雅楠 on 15/7/27.
+//  Copyright (c) 2015年 Mike. All rights reserved.
+//
+
+#ifndef AFN____PrefixHeader_pch
+#define AFN____PrefixHeader_pch
+
+
+#import "AFRequest.h"
+#import "MJExtension.h"
+
+#define BDUrl_location @"http://api.map.baidu.com/geosearch/v3/local"
+
+// 取屏幕宽、高
+#define SCREEN_WIDTH  ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT  ([[UIScreen mainScreen] bounds].size.height)
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
